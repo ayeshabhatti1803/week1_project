@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <h1>Hello World</h1>
+    <button id="my-button" onclick="myFunction()">Click Me!</button>
+
+    <script src="src/index.js">
+      var button = document.getElementById('my-button');
+        button.addEventListener('click', function() {
+          console.log('Hello world');
+        });
+    </script>
+  </body>
+</html>
